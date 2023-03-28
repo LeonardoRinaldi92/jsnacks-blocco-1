@@ -1,5 +1,5 @@
-let numero1 = prompt("dicci un numero");
-let numero2 = prompt("dicci un numero");
+let numero1 = parseInt(prompt("dicci un numero"));
+let numero2 = parseInt(prompt("dicci un numero"));
 
 if (numero1 > numero2) {
     document.writeln (numero1) 
